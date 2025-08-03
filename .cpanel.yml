@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - export: /home/thephat7/public_html
