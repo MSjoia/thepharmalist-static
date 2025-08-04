@@ -50,10 +50,13 @@
           @apply btn bg-white text-brand-primary border-2 border-brand-primary;
         }
         .section-title {
-          @apply text-2xl md:text-5xl font-bold text-brand-primary mb-2 text-center;
+          @apply text-3xl md:text-4xl font-bold text-brand-primary mb-2 text-center;
         }
         .section-subtitle {
-          @apply text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto;
+            @apply text-2xl md:text-2xl font-bold text-gray-700 mb-2;      
+        }
+        .section-mytext {
+            @apply text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto;
         }
         .nav-link {
           @apply text-gray-600 hover:text-brand-primary transition-colors duration-300 font-medium;
@@ -227,7 +230,7 @@
           >
             Who We Are
           </h2>
-          <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          <p class="section-mytext" data-aos="fade-up" data-aos-delay="100">
             We are a UK-based company dedicated to supporting pharmacies in
             maximizing their profitability and operational efficiency. Our
             expertise lies in tracking medicine prices across the UK to help you
@@ -244,7 +247,7 @@
             </div>
             <div data-aos="fade-left" data-aos-delay="300">
               <div class="mb-8">
-                <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                <h3 class="section-subtitle">
                   Our Vision
                 </h3>
                 <p>
@@ -254,7 +257,7 @@
                 </p>
               </div>
               <div>
-                <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                <h3 class="section-subtitle">
                   Our Mission
                 </h3>
                 <p>
@@ -273,12 +276,12 @@
       <section id="how-it-works" class="py-20 bg-white">
         <div class="container mx-auto px-6">
           <h2
-            class="section-title text-2xl font-bold text-gray-800 mb-2"
+            class="section-title"
             data-aos="fade-up"
           >
             How UK Pharmacy Works
           </h2>
-          <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          <p class="section-mytext" data-aos="fade-up" data-aos-delay="100">
             The key to profitability is buying medicines at the lowest price and
             dispensing efficiently. We help you master the purchasing part.
           </p>
@@ -293,7 +296,7 @@
               >
                 1
               </div>
-              <h3 class="text-xl font-bold mb-2">Prescriptions</h3>
+              <h3 class="section-subtitle text-xl">Prescriptions</h3>
               <p>
                 Patients receive prescriptions from doctors and take them to
                 pharmacies. Reimbursement is based on the Drug Tariff.
@@ -309,7 +312,7 @@
               >
                 2
               </div>
-              <h3 class="text-xl font-bold mb-2">Reimbursement</h3>
+              <h3 class="section-subtitle text-xl">Reimbursement</h3>
               <p>
                 Pharmacies are reimbursed by the government based on the Drug
                 Tariff, which is updated quarterly.
@@ -325,7 +328,7 @@
               >
                 3
               </div>
-              <h3 class="text-xl font-bold mb-2">Profitability</h3>
+              <h3 class="section-subtitle text-xl">Profitability</h3>
               <p>
                 Profit is the difference between the purchase price and the
                 reimbursement price. We help you widen that gap.
@@ -339,12 +342,12 @@
       <section id="services" class="py-20">
         <div class="container mx-auto px-6">
           <h2
-            class="section-title text-2xl font-bold text-gray-800 mb-2"
+            class="section-title"
             data-aos="fade-up"
           >
             Our Core Services
           </h2>
-          <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          <p class="section-mytext" data-aos="fade-up" data-aos-delay="100">
             A comprehensive suite of tools and solutions designed to streamline
             your operations and boost your bottom line.
           </p>
@@ -354,14 +357,14 @@
               class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
               data-aos="zoom-in"
             >
-              <div class="mb-4">
+              <div class="mb-4 items-center justify-center flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-10 w-10 brand-primary"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-width="2"
+                  stroke-width="2"                  
                 >
                   <path
                     stroke-linecap="round"
@@ -370,10 +373,10 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-800 mb-3">
+              <h3 class="section-subtitle text-xl mb-3 text-center">
                 Drug Tariff & Price Tracking
               </h3>
-              <p>
+              <p class="text-justify">
                 Stay ahead with real-time Drug Tariff updates and medicine price
                 tracking to identify the best purchasing opportunities.
               </p>
@@ -383,7 +386,7 @@
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <div class="mb-4">
+              <div class="mb-4 items-center justify-center flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-10 w-10 brand-primary"
@@ -399,10 +402,10 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-800 mb-3">
+              <h3 class="section-subtitle text-xl mb-3 text-center">
                 Stock & Inventory Management
               </h3>
-              <p>
+              <p class="text-justify">
                 Optimize your stock levels, track monthly usage, and manage
                 shortages effectively with our powerful tools.
               </p>
@@ -412,7 +415,7 @@
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <div class="mb-4">
+              <div class="mb-4 items-center justify-center flex text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-10 w-10 brand-primary"
@@ -428,10 +431,10 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-800 mb-3">
+              <h3 class="section-subtitle text-xl mb-3 text-center">
                 Invoices & Profit Insights
               </h3>
-              <p>
+              <p class="text-justify">
                 Gain clarity on your finances. We provide detailed insights into
                 your invoices and profitability per item.
               </p>
@@ -441,7 +444,7 @@
               data-aos="zoom-in"
               data-aos-delay="300"
             >
-              <div class="mb-4">
+              <div class="mb-4 items-center justify-center flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-10 w-10 brand-primary"
@@ -460,10 +463,10 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-800 mb-3">
+              <h3 class="section-subtitle text-xl mb-3 text-center">
                 Inter-Branch Stock Transfers
               </h3>
-              <p>
+              <p class="text-justify">
                 For pharmacy groups, we facilitate seamless stock transfers
                 between branches to minimize waste and maximize availability.
               </p>
@@ -473,7 +476,7 @@
               data-aos="zoom-in"
               data-aos-delay="400"
             >
-              <div class="mb-4">
+              <div class="mb-4 items-center justify-center flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-10 w-10 brand-primary"
@@ -489,10 +492,10 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-800 mb-3">
+              <h3 class="section-subtitle text-xl mb-3 text-center">
                 Spreadsheet Solutions
               </h3>
-              <p>
+              <p class="text-justify">
                 Custom solutions for your unique needs, from vaccination
                 management to specialized reporting.
               </p>
@@ -502,7 +505,7 @@
               data-aos="zoom-in"
               data-aos-delay="500"
             >
-              <div class="mb-4">
+              <div class="mb-4 items-center justify-center flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-10 w-10 brand-primary"
@@ -518,10 +521,10 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold text-gray-800 mb-3">
+              <h3 class="section-subtitle text-xl mb-3 text-center">
                 Expert Consultancy
               </h3>
-              <p>
+              <p class="text-justify">
                 Our team offers ongoing support to help you navigate supplier
                 relationships, regulations, and operational challenges.
               </p>
@@ -543,7 +546,7 @@
             </div>
             <div data-aos="fade-left">
               <h2
-                class="text-4xl md:text-5xl font-bold text-gray-800 mb-6 text-left"
+                class="section-title text-4xl md:text-5xl mb-6 text-left"
               >
                 Why Choose Us?
               </h2>
@@ -669,12 +672,12 @@
       <section id="ai-tools" class="py-20">
         <div class="container mx-auto px-6">
           <h2
-            class="section-title text-2xl font-bold text-gray-800 mb-2"
+            class="section-title"
             data-aos="fade-up"
           >
             ✨ AI Profit Optimizer
           </h2>
-          <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          <p class="section-mytext" data-aos="fade-up" data-aos-delay="100">
             Enter the name of a medicine to get AI-powered strategies for
             maximizing your profit margins on that specific product.
           </p>
@@ -706,7 +709,7 @@
       <section id="faq" class="py-20 bg-white">
         <div class="container mx-auto px-6">
           <h2
-            class="section-title text-2xl font-bold text-gray-800 mb-2"
+            class="section-title"
             data-aos="fade-up"
           >
             Frequently Asked Questions
@@ -859,12 +862,12 @@
       <section id="contact" class="py-20">
         <div class="container mx-auto px-6">
           <h2
-            class="section-title text-2xl font-bold text-gray-800 mb-2"
+            class="section-title"
             data-aos="fade-up"
           >
             Get In Touch
           </h2>
-          <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          <p class="section-mytext" data-aos="fade-up" data-aos-delay="100">
             Schedule a free consultation or send us a message. We're here to
             help you boost your pharmacy's profits.
           </p>
@@ -981,20 +984,20 @@
               <li>
                 Email:
                 <a
-                  href="mailto:contact@thepharmalist.co.uk"
+                  href="mailto:orders@sunnydhaliwal.co.uk"
                   class="hover:text-white"
-                  >contact@thepharmalist.co.uk</a
+                  >orders@sunnydhaliwal.co.uk</a
                 >
               </li>
-              <li>Phone: [Your Company Phone]</li>
-              <li>Address: [Your Company Address]</li>
+              <li>Phone: +44 7843 274289</li>
+              <li>Address: Stafford Road, Wolverhampton, UK</li>
             </ul>
           </div>
         </div>
         <div
           class="mt-12 border-t border-gray-700 pt-8 text-center text-gray-500"
         >
-          <p>&copy; 2024 The PharmaList. All Rights Reserved.</p>
+          <p>&copy; 2025 The PharmaList. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
