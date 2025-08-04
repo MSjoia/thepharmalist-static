@@ -28,7 +28,8 @@
         @layer components {
         body {
           font-family: "Inter", sans-serif;
-          background-color: #f8fafc;
+          @apply bg-gray-50 text-gray-700;
+          /*background-color: #f8fafc;*/
           overflow-x: hidden;
         }
         .brand-primary {
@@ -93,10 +94,10 @@
           animation: spin 1s ease infinite;
         }
         @keyframes spin {
-          0% {
+          from{
             transform: rotate(0deg);
           }
-          100% {
+          to {
             transform: rotate(360deg);
           }
         }
@@ -108,7 +109,7 @@
     </style>
 </head>
 
-<body class="text-gray-700">
+<body>
     <!-- Header & Navigation -->
     <header id="header" class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-sm">
         <div class="container mx-auto px-6 py-3 flex justify-between items-center">
